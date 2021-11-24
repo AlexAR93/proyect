@@ -88,6 +88,9 @@ section h2{
     background: #fff;
     font-size: 2rem;
 }
+.hide-about{
+    display: none;
+}
 
 aside{
     display: flex;

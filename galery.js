@@ -22,10 +22,10 @@ let openWindowWhatsapp=()=>{
 openWindowWhatsapp();
 
 let iAbout=document.getElementById("section-about")
-let p=document.querySelector(".hide")
+let p=document.querySelector(".hide-about")
 let about=()=>{
     iAbout.addEventListener("click",()=>{
-        p.classList.toggle("hide")
+        p.classList.toggle("hide-about")
 })
 }
 about()
