@@ -21,7 +21,7 @@ let openWindowWhatsapp=()=>{
 }
 openWindowWhatsapp();
 
-let iAbout=document.getElementById("section-about")
+let iAbout=document.getElementById("about")
 let p=document.querySelector(".hide-about")
 let about=()=>{
     iAbout.addEventListener("click",()=>{
