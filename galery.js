@@ -20,3 +20,12 @@ let openWindowWhatsapp=()=>{
     })
 }
 openWindowWhatsapp();
+
+let iAbout=document.getElementById("section-about")
+let p=document.querySelector(".hide")
+let about=()=>{
+    iAbout.addEventListener("click",()=>{
+        p.classList.toggle("hide")
+})
+}
+about()
