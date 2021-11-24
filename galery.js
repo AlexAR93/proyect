@@ -12,3 +12,11 @@ let abrirNav=()=>{
 
 abrirNav()
 
+let whatsapp=document.getElementById("whatsapp");
+let hide=document.querySelector(".hide")
+let openWindowWhatsapp=()=>{
+    whatsapp.addEventListener("click",()=>{
+        hide.classList.toggle("hide")
+    })
+}
+openWindowWhatsapp();
