@@ -95,17 +95,10 @@ section h2{
     display: none;
 }
 
-aside{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
+.whatsapp-fixed{
     position: fixed;
     right: 2rem;
     bottom: 4rem;
-    width: 88%;
-}
-.whatsapp-fixed{
-    padding: 0.5rem;
 }
 .whatsapp-fixed i{
     padding: 0.6rem;
@@ -115,6 +108,10 @@ aside{
     font-size: 2.5rem;
 }
 .window-whatsapp{
+    padding: 1rem;
+    position: fixed;
+    right: 0;
+    bottom: 9rem;
     background: #fff;
     border-radius: 4%;
 }
@@ -126,7 +123,7 @@ aside{
 }
 .i{
     position: absolute;
-    left: 1rem;
+    left: 2rem;
     font-size: 2rem;
 }
 .window-whatsapp div h4{
