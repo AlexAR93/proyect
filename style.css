@@ -42,7 +42,6 @@ body{
 }
 .open i:hover{
     cursor: pointer;
-    
 }
 .mostrar{
     margin-left: 0;
@@ -103,32 +102,40 @@ section h2{
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto;
+    gap: 1rem;
     padding: 1rem;
+
 }
 
 .section-galery_family h3,.section-galery_child h3{
     position: absolute;
     color: #fff;
     text-shadow: 4px 2px 4px #fff;
-    padding: 1rem;
+    padding: 1rem 0 0 0;
 }
-.section-galery_child img{
-    width: 90%;
-    height: 90%;
+.section-galery_child a img{
+    width: 100%;
+    height: 100%;
 }
-.section-galery_family img{
-    width: 90%;
-    height: 90%;
+.section-galery_family a img{
+    width: 100%;
+    height: 100%;
 }
-.section-galery_child{
+.section-galery_child a{
     width: 100%;
     height: 100%;
     margin: auto;
 }
-.section-galery_family{
+.section-galery_family a{
     width: 100%;
     height: 100%;
     margin: auto;
+}
+.section-galery_family a:hover{
+    box-shadow: 2px 4px 10px 5px #999;
+}
+.section-galery_child a:hover{
+    box-shadow: 2px 4px 10px 5px #999;
 }
 footer{
     background-color: #fff;
