@@ -63,18 +63,17 @@ main section{
 }
 section h2{
     padding: 1rem 0;
-    color: #333;
+    color: #fff;
+    text-shadow: 4px 2px 4px #333;
 
 }
-.section-family span{
+.section-family{
     width: 100%;
-    height: 30vh;
-    background: url(/assets/images/Cocinar-en-familia.webp);
+    height: 15vh;
+    background: url(/assets/images/fond2.jpg!d);
     background-size: cover;
     background-position:center;
-}
-.section-family span:hover{
-    
+    background-attachment: fixed;
 }
 
 .content{
