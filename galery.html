@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/b6118f8b9b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="galery.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="tittle">
+            <button class="open">
+                <i class="fas fa-bars"></i>
+            </button>
+            <h1><a href="index.html">Soledad Sosa</a></h1>
+        </div>
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="link"><a href="index.html">Home</a></li>
+                <li class="link"><a href="index.html#section-about">Sobre mi</a></li>
+                <li class="link"><a href="galery.html">Galeria</a></li>
+                <li class="link"><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Galeria</h2>
+        <section class="galery">
+            <section class="galery-child">
+                <h3>Galeria Infantil</h3>
+                <img src="/assets/images/OIPInfantil9.jfif" alt="" id="show-gallery-child">
+                <div class="grid-galery-child click-child" id="child">
+                    <img src="/assets/images/OIPInfantil5.jpg" alt="">
+                    <img src="/assets/images/OIPInfantil6.jfif" alt="">
+                    <img src="/assets/images/OIPInfantil7.jfif" alt="">
+                    <img src="/assets/images/OIPInfantil9.jfif" alt="">
+                    <img src="/assets/images/OIPInfantil10.jfif" alt="">
+                    
+                </div>
+            </section>
+            <section class="galery-family">
+                <h3>Galeria Familiar</h3>
+                <img src="/assets/images/R2.jfif" alt="" id="show-gallery-family">
+                <div class="grid-galery-family click-family" id="family">
+                    <img src="/assets/images/R.jfif" alt="">
+                    <img src="/assets/images/R2.jfif" alt="">
+                    <img src="/assets/images/R3.jpg" alt="">
+                    <img src="/assets/images/R4.jpg" alt="">
+                    <img src="/assets/images/R5.jpg" alt="">
+                </div>
+            </section>
+        </section>
+            
+    </main>
+    <footer>
+        <h2 id="contact">Redes Sociales</h2>
+        <ul>
+            <li>
+                <a href="mailto:samblas123@hotmail.com" target="_BLANK" class="mail"><i class="icon fas fa-envelope"></i></a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/phsoledadsosa/" target="_BLANK" class="instagram"><i class="icon fab fa-instagram"></i></a>
+            </li>
+            <!-- <li>
+                <a href="" target="_BLANK" class="whatsapp"><i class="icon fab fa-whatsapp"></i></a>
+            </li> -->
+            <li>
+                <a href="https://www.facebook.com/profile.php?id=100013892619746" target="_BLANK" class="facebook"><i class="icon fab fa-facebook"></i></a>
+            </li>
+        </ul>
+    </footer>
+    <aside>
+        <section class="hide">
+            <div class="window-whatsapp">
+                <div>
+                    <i class="icon fab fa-whatsapp i"></i> 
+                    <h3>Iniciar una conversación</h3>
+                    <h4>¡Hola! Envianos tus consultas a nuestro Whatsapp</h4>
+                </div>
+                <p>
+                    <a href="https://api.whatsapp.com/send?phone=+542246440396&text=Hola,Nececito%20mas%20información!" target="_blank">
+                        <i class="icon fab fa-whatsapp"></i>Soledad Sosa
+                    </a>
+                </p>
+            </div>
+        </section>
+        <div class="whatsapp-fixed" id="whatsapp">
+                <i class="icon fab fa-whatsapp"></i>
+        </div>
+    </aside>
+    <script src="/JS/navYWhatsapp.js"></script>
+    <script src="/JS/galery.js"></script>
+</body>
+</html>
